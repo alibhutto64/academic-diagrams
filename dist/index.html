@@ -8,13 +8,7 @@
 </head>
 
 <body>
-  <pre class="mermaid">
-            graph TD
-            A[Client] --> B[Load Balancer]
-            B --> C[Server1]
-            B --> D[Server2]
-  </pre>
-
+  <h1>Graph</h1>
   <pre class="mermaid">
     graph LR;
     A[Start Research] --> B[Literature Review];
@@ -29,6 +23,56 @@
 
   </pre>
 
+  <h1>Mind Map: Academic Concept Mapping</h1>
+
+  <pre class="mermaid">
+    mindmap
+      root
+        root1
+          Introduction
+          Concepts
+          Literature Review
+        root2
+          Methodology
+            Qualitative
+            Quantitative
+        root3
+          Results
+            Statistical Analysis
+            Graphs and Charts
+        root4
+          Conclusion
+            Implications
+            Future Work
+
+  </pre>
+
+  <h1>Gantt</h1>
+
+  <pre class="mermaid">
+    gantt
+    title Academic Course Timeline
+    dateFormat YYYY-MM-DD
+    section Semester 1
+    Introduction to Programming: 2025-03-01, 30d
+    Data Structures: 2025-03-15, 40d
+    section Semester 2
+    Algorithms: 2025-06-01, 40d
+    Database Systems: 2025-07-01, 30d
+
+  </pre>
+
+  <h1>Pie Chart</h1>
+
+  <pre class="mermaid">
+    pie
+    title Research Paper Publication Status
+    "In Progress" : 40
+    "Published" : 30
+    "Under Review" : 20
+    "Rejected" : 10
+
+  </pre>
   <script src="https://cdn.jsdelivr.net/npm/mermaid@11.5.0/dist/mermaid.min.js" integrity="sha256-2obLuIPcceEhkE3G09G33hBdmE55ivVcZUlcKcGNHjU=" crossorigin="anonymous"></script>
 </body>
 
